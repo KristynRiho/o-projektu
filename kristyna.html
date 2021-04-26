@@ -6,6 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kristýna Říhová</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla&display=swap"
+      rel="stylesheet"
+    />
     <link rel="icon" type="image/png" href="img/favi.png" />
     <script
       src="https://kit.fontawesome.com/e5df4230c0.js"
@@ -14,23 +23,35 @@
   </head>
   <body>
     <!-- HEADER -->
-    <header></header>
+    <header class="intro">
+      <h1 class="intro__heading">Pečuji o svého blízkého</h1>
+      <nav class="intro__menu">
+        <ul class="menu">
+          <li class="menu__item"><a href="index.html">O projektu</a></li>
+          <li class="menu__item"><a href="#">Bára</a></li>
+          <li class="menu__item"><a href="#">Ivča</a></li>
+          <li class="menu__item"><a href="kristyna.html">Kristýna</a></li>
+        </ul>
+      </nav>
+    </header>
     <!-- MAIN -->
-    <main>
+    <main class="kris-container">
       <!-- SECTION HISTORY -->
+      <h2>Kristýna Říhová</h2>
       <section id="history">
-        <h2 class="kris-heading--main">Má historie</h2>
-        <h3 class="kris-heading--small">Cesta k Czechitas</h3>
-        <div class="">
+        <h3 class="kris-heading--main">Má historie</h3>
+        <h4 class="kris-heading--small">Cesta k Czechitas</h4>
+        <div class="kris-flex-container">
           <p class="">
             Jsem mamina na rodičovské dovolené a mám dvě úžasné, roztomilé,
-            andělské dítka (foto vpravo je perfektně vystihuje). Šunky už si
-            doma válím skoro šest let. Z&nbsp;dlouhé chvíle a velké nudy jsem si
-            před rokem a půl řekla, že zase zapojím svůj mozek do&nbsp;provozu.
+            andělské dítka (obrázek je perfektně vystihuje). Šunky už si doma
+            válím skoro šest let. Z&nbsp;dlouhé chvíle a velké nudy jsem si před
+            rokem a půl řekla, že zase zapojím svůj mozek do&nbsp;provozu.
             Chvíli jsem dumala nad&nbsp;tím, čím bych ho mohla opětovně
             zprovoznit. A&nbsp;hle! Můj PC mi čte myšlenky a hned mi zobrazil
             reklamu na&nbsp;Czechitas.
           </p>
+          <img class="mimi" src="img/mimi.png" alt="mimi" />
         </div>
         <p>
           Procházela jsem jednotlivé oblasti IT, které Czechitas nabízí a
@@ -45,25 +66,15 @@
           <span class="bold">Staň se kodérkou a Digitální akademie - Web</span>.
         </p>
 
-        <h3 class="kris-heading--small">Proč to dělám?</h3>
+        <h4 class="kris-heading--small">Proč to dělám?</h4>
         <p>
           Všechno tohle dělám, protože mě to baví a zároveň doufám, že mi to
           pomůže najít jinou práci než co jsem dělala před RD.
         </p>
-
-        <h3 class="kris-heading--small">Zájmy</h3>
-        <p>Existuje spousta věcí, které mě baví:</p>
-        <ul class="">
-          <li>plánování výletů a hledání v mapách</li>
-          <li>vejletování s dětmi</li>
-          <li>vymýšlení kravin</li>
-          <li>tancování</li>
-          <li>a především kódování a programování.</li>
-        </ul>
       </section>
       <!-- SECTION - SEBECHVÁLA :-D  -->
       <section id="ego">
-        <h2 class="kris-heading--main">Sebechvála</h2>
+        <h3 class="kris-heading--main">Sebechvála</h3>
         <p>
           Veškerá má úžasná veledíla jsou k nalezení kde jinde než na
           <a href="https://github.com/KristynRiho" target="_blank"
@@ -95,80 +106,21 @@
           <a
             href="https://github.com/KristynRiho/PROJEKT-Sluzby"
             target="_blank"
-            >webu dle grafického návrhu</a
+            >webu dle grafického návrhu.</a
           >
         </p>
       </section>
 
-      <!-- SECTION - TEST -->
-      <section id="test">
-        <h2 class="kris-heading--main">Testík</h2>
-        <h3 class="kris-heading--small">Už mě znáš? Ověř si to!</h3>
-
-        <div class="questions">
-          <label for="q1">Tancovala jsem někdy kankán?:</label>
-          <select id="q1">
-            <option value="ne">Ne, do toho by mě nikdo nikdy nedonutil!</option>
-            <option value="ano-ale">Ano, před X lety a Y kily!</option>
-            <option value="porad">Ano, pořád ho stále tančím (haha)</option>
-          </select>
-        </div>
-
-        <div class="questions">
-          <label for="q2"
-            >Kdy jsem se začala učit HTML, CSS a Javascript?</label
-          >
-          <form id="q2">
-            <input type="radio" id="zacnu" name="date" value="zacnu" />
-            <label for="zacnu">Teprv začnu</label><br />
-            <input type="radio" id="ted" name="date" value="ted" />
-            <label for="zacnu">V lednu 2021</label><br />
-            <input type="radio" id="minulost" name="date" value="minulost" />
-            <label for="minulost">V lednu 2001</label>
-          </form>
-        </div>
-
-        <div class="questions">
-          <label for="q3">Kolik mám doma zvířat?</label>
-          <form id="q3">
-            <input type="checkbox" id="ans1" name="ans1" value="Žádné" />
-            <label for="ans1"> Žádné</label><br />
-            <input
-              type="checkbox"
-              id="ans2"
-              name="ans2"
-              value="Jednoho velblouda"
-            />
-            <label for="ans2"> Jednoho lenochoda</label><br />
-            <input type="checkbox" id="ans3" name="ans3" value="Opice" />
-            <label for="ans3"> Dvě opice jmenující se Ema a Štěpán</label>
-          </form>
-        </div>
-
-        <div class="questions questions__btn">
-          <!-- předělat -->
-          <!-- <details>
-      <summary>Vyhodnotit testík</summary>
-      <p>
-        Co blázníte, snad si nemyslíte, že umím zprovoznit vyhodnocení
-        testu?<span class="smile">&#128540;</span>
-      </p>
-    </details> -->
-        </div>
-      </section>
-
       <!-- back to top -->
-      <div class="link-top">
+      <!-- <div class="link-top">
         <a class="link-top__a" href="#top"
           ><img src="img/top.png" alt="top"
         /></a>
-      </div>
+      </div> -->
     </main>
     <!-- FOOTER -->
     <footer>
-      <p>
-        &copy; 2021, <a href="mailto:rihokristyn@gmail.com">vytvořeno mnou</a>
-      </p>
+      <p>&copy; 2021, vytvořeno námi &#128578;</p>
     </footer>
     <script src="script.js"></script>
   </body>
