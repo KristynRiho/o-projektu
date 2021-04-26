@@ -8,3 +8,182 @@ html {
   margin: 0;
   padding: 0;
 }
+
+:root {
+  --font-main: 'Merriweather Sans', sans-serif;
+}
+
+body {
+  font-family: var(--font-main);
+}
+
+/**** HEADER *****/
+
+.intro {
+  letter-spacing: 1.2px;
+  border-bottom: 1px solid rgb(223, 21, 21);
+  text-align: center;
+}
+
+.intro__heading {
+  padding: 10px;
+}
+
+.menu {
+  font-size: 24px;
+}
+
+.menu__item {
+  list-style-type: none;
+}
+
+.menu__item a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px;
+}
+
+.menu__item a:hover,
+.menu__item a:focus,
+.menu__item a:active {
+  background-color: rgb(88, 10, 10);
+  color: beige;
+}
+
+/**** MAIN *****/
+
+/**** FOOTER *****/
+footer p {
+  text-align: center;
+  padding: 20px;
+  background-color: brown;
+  color: wheat;
+}
+
+/* *** BÁRA *** */
+
+/* *** IVČA *** */
+
+/* *** KRISTÝNA *** */
+.bold {
+  font-weight: 700;
+  font-size: 18px;
+}
+.kris-container {
+  padding: 20px;
+  font-family: 'Karla', sans-serif;
+  letter-spacing: 2px;
+  line-height: 1.5;
+}
+
+.kris-container p {
+  text-indent: 5%;
+  text-align: justify;
+}
+
+.kris-container section {
+  margin-bottom: 15px;
+}
+
+.kris-container h2 {
+  text-align: center;
+  padding: 10px 5px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 24px;
+}
+
+.kris-heading--main {
+  font-size: 28px;
+  margin-top: 10px;
+}
+
+.kris-heading--main::first-letter {
+  color: orangered;
+}
+
+.kris-heading--main::after {
+  content: '';
+  display: block;
+  width: 130px;
+  padding: 2px;
+  background: linear-gradient(to right, orangered, rgb(255, 174, 0), gold);
+  margin: 10px 0 10px -20px;
+}
+
+.kris-heading--small {
+  font-size: 22px;
+  text-align: center;
+  margin: 10px 0;
+  font-style: italic;
+}
+
+.mimi {
+  width: 200px;
+  display: block;
+  margin: 10px auto;
+}
+
+.kris-hobby-list li {
+  margin-left: 40px;
+}
+
+#ego a {
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#ego a:hover {
+  background-color: gray;
+  color: aliceblue;
+}
+
+@media screen and (min-width: 600px) {
+  /* *** header *** */
+
+  .menu {
+    display: flex;
+    justify-content: center;
+  }
+
+  .menu__item a {
+    padding: 5px 20px;
+  }
+
+  /* kristyna */
+  .kris-container p {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 970px) {
+  /**** header ****/
+  .intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .menu__item a {
+    padding: 15px 25px;
+  }
+
+  /* kristyna */
+  .kris-container {
+    padding: 20px 80px;
+    font-family: 'Karla', sans-serif;
+    letter-spacing: 2px;
+    line-height: 1.5;
+  }
+
+  .kris-flex-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .kris-hobby-list li {
+    margin-left: 100px;
+  }
+}
