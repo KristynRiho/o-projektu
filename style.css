@@ -51,7 +51,15 @@ body {
 }
 
 /**** MAIN *****/
+.headin--main {
+margin: 40px 20px 20px
+}
 
+.paragraph--main {
+  letter-spacing: 1.1;
+  line-height: 1.7;
+  padding-left: 40px;
+}
 /**** FOOTER *****/
 footer p {
   text-align: center;
@@ -63,7 +71,19 @@ footer p {
 /* *** BÁRA *** */
 
 /* *** IVČA *** */
-
+.ivku-container p {
+  text-indent: 5%;
+  text-align: left;
+}
+.ivku-heading--main {
+  color: darkgrey;
+  
+}
+.ivku-heading--small {
+  font-size: 18px;
+  text-align: left;
+  margin: 40px
+}
 /* *** KRISTÝNA *** */
 .bold {
   font-weight: 700;
