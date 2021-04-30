@@ -21,7 +21,7 @@ body {
 
 .intro {
   letter-spacing: 1.2px;
-  border-bottom: 1px solid rgb(223, 21, 21);
+  border-bottom: 1px solid brown;
   text-align: center;
 }
 
@@ -46,17 +46,32 @@ body {
 .menu__item a:hover,
 .menu__item a:focus,
 .menu__item a:active {
-  background-color: rgb(88, 10, 10);
+  background-color: brown;
   color: beige;
 }
 
 /**** MAIN *****/
+.words {
+  width: 500px;
+}
+
+.background {
+  background: linear-gradient(
+      rgba(128, 128, 128, 0.623),
+      rgba(88, 88, 88, 0.623)
+    ),
+    url(img/pece.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
 .headin--main {
-margin: 40px 20px 20px
+  margin: 40px 20px 20px;
 }
 
 .paragraph--main {
-  letter-spacing: 1.1;
+  letter-spacing: 1.1px;
   line-height: 1.7;
   padding-left: 40px;
 }
@@ -77,12 +92,11 @@ footer p {
 }
 .ivku-heading--main {
   color: darkgrey;
-  
 }
 .ivku-heading--small {
   font-size: 18px;
   text-align: left;
-  margin: 40px
+  margin: 40px;
 }
 /* *** KRISTÝNA *** */
 .bold {
@@ -144,10 +158,6 @@ footer p {
   margin: 10px auto;
 }
 
-.kris-hobby-list li {
-  margin-left: 40px;
-}
-
 #ego a {
   color: black;
   font-weight: 700;
@@ -156,7 +166,7 @@ footer p {
 }
 
 #ego a:hover {
-  background-color: gray;
+  background-color: brown;
   color: aliceblue;
 }
 
@@ -201,9 +211,5 @@ footer p {
   .kris-flex-container {
     display: flex;
     align-items: center;
-  }
-
-  .kris-hobby-list li {
-    margin-left: 100px;
   }
 }
