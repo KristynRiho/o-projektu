@@ -110,15 +110,14 @@ footer p {
   max-width: 20vw;
   float: right;
 }
-
-.ivku-container p {
-  text-indent: 5%;
-  text-align: left;
+.bara-container p {
+  text-align: center;
+  font-family: 'Karla', sans-serif;
 }
-.ivku-heading--main {
+.bara-heading--main {
   color: darkgrey;
 }
-.ivku-heading--small {
+.bara-heading--small {
   font-size: 18px;
   text-align: left;
   margin: 40px;
