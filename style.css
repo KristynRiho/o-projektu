@@ -107,7 +107,21 @@ footer p {
 
 /* *** BÁRA *** */
 .profil {
-  max-width: 25vw;
+  max-width: 20vw;
+  float: right;
+}
+
+.ivku-container p {
+  text-indent: 5%;
+  text-align: left;
+}
+.ivku-heading--main {
+  color: darkgrey;
+}
+.ivku-heading--small {
+  font-size: 18px;
+  text-align: left;
+  margin: 40px;
 }
 
 /* *** IVČA *** */
