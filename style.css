@@ -116,6 +116,12 @@ footer p {
 }
 .bara-heading--main {
   color: darkgrey;
+  font-size: 28px;
+  margin-top: 10px;
+}
+
+.bara-heading--main::first-letter {
+  color: orangered;
 }
 .bara-heading--small {
   font-size: 18px;
