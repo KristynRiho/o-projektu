@@ -108,7 +108,7 @@ footer p {
 /* *** BÁRA *** */
 .profil {
   max-width: 20vw;
-  float: right;
+  float: left;
 }
 .bara-container p {
   text-align: center;
