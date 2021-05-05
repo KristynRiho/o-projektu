@@ -47,7 +47,7 @@ body {
 .menu__item a:focus,
 .menu__item a:active {
   background-color: brown;
-  color: beige;
+  color: aliceblue;
 }
 
 /**** MAIN *****/
@@ -109,26 +109,61 @@ footer p {
 .profil {
   max-width: 15vw;
   float: left;
+  padding: 15px;
 }
 .bara-container p {
-  text-align: center;
+  padding: 20px;
   font-family: 'Karla', sans-serif;
-}
-.bara-heading--main {
-  color: darkgrey;
-  font-size: 28px;
-  margin-top: 10px;
+  letter-spacing: 2px;
+  line-height: 1.5;
 }
 
+.bara-container p {
+  text-indent: 5%;
+  text-align: left;
+}
+.bara-heading--main {
+  color: black;
+  font-size: 28px;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+.bara-container h2 {
+  text-align: center;
+  padding: 10px 5px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 24px;
+}
 .bara-heading--main::first-letter {
   color: orangered;
 }
-.bara-heading--small {
-  font-size: 18px;
-  text-align: left;
-  margin: 40px;
+.bara-heading--main::after {
+  content: '';
+  display: block;
+  width: 130px;
+  padding: 2px;
+  background: linear-gradient(to right, orangered, rgb(255, 174, 0), gold);
+  margin: 10px 0 10px -20px;
 }
 
+.bara-heading--small {
+  font-size: 24px;
+  text-align: center;
+  font-style: italic;
+  margin: 10px 0;
+}
+
+#bara-proc a {
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 18px;
+}
+#bara-proc a:hover {
+  background-color: brown;
+  color: beige;
+}
 /* *** IVČA *** */
 .ivku-container p {
   text-indent: 5%;
