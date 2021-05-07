@@ -27,6 +27,12 @@ body {
 
 .intro__heading {
   padding: 10px;
+  text-decoration: none;
+}
+
+.intro__heading a {
+  text-decoration: none;
+  color: black;
 }
 
 .menu {
@@ -55,6 +61,8 @@ body {
 .title {
   color: brown;
   text-shadow: 2px 2px 5px wheat;
+  margin-bottom: 35px;
+  text-align: center;
 }
 
 h2 {
@@ -67,7 +75,7 @@ h2 {
 }
 
 .words {
-  width: 500px;
+  max-width: 900px;
   display: block;
   margin: 0 auto;
 }
@@ -76,10 +84,7 @@ h2 {
   padding: 20px;
   margin: 0 auto;
   max-width: 900px;
-  background: linear-gradient(
-      rgba(128, 128, 128, 0.623),
-      rgba(88, 88, 88, 0.623)
-    ),
+  background: linear-gradient(rgba(90, 88, 88, 0.623), rgb(175, 172, 172)),
     url(img/pece.jpg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -90,16 +95,40 @@ h2 {
 .headin--main {
   margin: 40px 20px 20px;
 }
+.center__button {
+  text-align: center;
+}
+.headin--main__button {
+  margin: 40px 20px 20px;
+  padding: 15px;
+  align-items: center;
+  font-family: 'Karla', sans-serif;
+  font-weight: bold;
+  font-size: medium;
+  border-radius: 3%;
+  border-style: none;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+}
 
+.headin--main__button:hover {
+  background-color: blanchedalmond;
+}
 .paragraph--main {
   letter-spacing: 1.1px;
   line-height: 2em;
   padding-left: 40px;
-  color: rgb(250, 248, 244);
+  color: rgb(255, 250, 205);
+  padding: 25px;
+  font-family: 'Karla', sans-serif;
 }
-.paragraph--main h4 {
-  text-decoration-line: underline;
+
+.paragraph--main ul {
+  width: 70%;
+  margin: auto;
 }
+
 /**** FOOTER *****/
 footer p {
   text-align: center;
@@ -143,6 +172,7 @@ footer a:hover {
   font-size: 28px;
   margin-top: 10px;
   margin-left: 75px;
+  font-family: 'Karla', sans-serif;
 }
 
 .bara-container h2 {
@@ -151,6 +181,7 @@ footer a:hover {
   text-transform: uppercase;
   letter-spacing: 5px;
   font-size: 24px;
+  font-family: 'Karla', sans-serif;
 }
 .bara-heading--main::first-letter {
   color: orangered;
@@ -169,6 +200,7 @@ footer a:hover {
   text-align: center;
   font-style: italic;
   margin: 10px 0;
+  font-family: 'Karla', sans-serif;
 }
 
 #bara-proc a {
