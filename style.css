@@ -93,9 +93,12 @@ h2 {
 
 .paragraph--main {
   letter-spacing: 1.1px;
-  line-height: 1.7;
+  line-height: 2em;
   padding-left: 40px;
   color: rgb(250, 248, 244);
+}
+.paragraph--main h4 {
+  text-decoration-line: underline;
 }
 /**** FOOTER *****/
 footer p {
@@ -116,18 +119,17 @@ footer p {
   font-family: 'Karla', sans-serif;
   letter-spacing: 2px;
   line-height: 1.5;
-}
-
-.bara-container p {
   text-indent: 5%;
   text-align: left;
 }
+
 .bara-heading--main {
   color: black;
   font-size: 28px;
   margin-top: 10px;
-  margin-left: 25px;
+  margin-left: 75px;
 }
+
 .bara-container h2 {
   text-align: center;
   padding: 10px 5px;
