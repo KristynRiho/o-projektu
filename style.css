@@ -108,11 +108,26 @@ footer p {
   color: wheat;
 }
 
+footer a {
+  text-decoration: none;
+  color: blanchedalmond;
+}
+
+footer a:hover {
+  background-color: blanchedalmond;
+  color: brown;
+  text-decoration: none;
+}
+
 /* *** BÁRA *** */
 .profil {
   max-width: 15vw;
   float: left;
   padding: 15px;
+}
+.logo {
+  max-width: 25px;
+  color: brown;
 }
 .bara-container p {
   padding: 20px;
